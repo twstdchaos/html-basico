@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+    background-color: gray;
+}
+
+.header__image img{
+    
+    width: 150px;
+
+}
+
+.header__links-container{
+    width: 50%;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
